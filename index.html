@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:400,500&display=swap" rel="stylesheet">
     <script src="js/home.js"></script>
   </head>
 </head>
 <body ng-app="qbApp" ng-controller="qbCtrl">
-    <div class="qb-header">
+    <div class="qb-header qbCardShadow">
         <nav class="navbar navbar-expand-md navbar-dark qb-navbar">
             <a class="navbar-brand qb-header-logo" href="#">Zaran</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -34,10 +36,10 @@
                             <a class="nav-link" href="#Projects">Projects</a>
                         </li>    
                         <li class="nav-item iBlock">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#Skills">Skills</a>
                         </li>    
                         <li class="nav-item iBlock">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="#Contact">Contact Me</a>
                         </li>    
                     </ul>
                 </div>
@@ -46,7 +48,7 @@
     </div>
 
     <div class="qb-wall">
-        <div class="qb-wall-bg img-cover" style="background-image: url('../images/31225.JPG');">
+        <div class="qb-wall-bg qbImgCover" style="background-image: url('../images/31225.JPG');">
             <div class="qb-wall-cover">
                 <div class="qb-wall-content">
                     <div class="qb-wall-text">
@@ -59,7 +61,7 @@
 
     <div class="qb-main" id="About">
         <div class="qb-pic-card-cover" >
-            <div class="qb-pic-card">
+            <div class="qb-pic-card qbCardShadow">
                 <div class="qb-card card">
                     <div class="qb-pic">
                         <img src="" alt="" class="qb-img">
@@ -83,7 +85,7 @@
                 </div>
             </div>
             <div class="qb-info-card qb-card-translate" id="Projects">
-                <div class="qb-info-card-head">
+                <div class="qb-card-padding-top qb-info-card-head">
                     Projects
                 </div>
                 <div class="qb-info-card-text qb-info-card-width-full">
@@ -93,22 +95,106 @@
                         <br>
                     </div>
                     <div class="qb-projects">
-                        <div class="card qb-project-card">
+                        <div class="card qb-project-card qbCardShadow">
                             <a href="https://ayushagrawal25.github.io/Endurance" style="text-decoration: none;">Endurance</a>
                         </div>
-                        <div class="card qb-project-card">
+                        <div class="card qb-project-card qbCardShadow">
                             <a href="https://www.tedxnitraipur.com" style="text-decoration: none;">TED<sup>x</sup> NIT Raipur</a>
                         </div>
-                        <div class="card qb-project-card">
+                        <div class="card qb-project-card qbCardShadow">
                             <a href="https://ayushagrawal25.github.io/calculator" style="text-decoration: none;">Calculator</a>
                         </div>
-                        <div class="card qb-project-card">
+                        <div class="card qb-project-card qbCardShadow">
                             <a href="https://ayushagrawal25.github.io/calculator" style="text-decoration: none;">Image Cropper</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="qb-info-card qb-card-translate" id="Projects">
+                <div id="Skills" class="qb-card-padding-top qb-info-card-head">
+                    Skills
+                </div>
+                <div class=" qb-info-card-text qb-info-card-width-full">
+                    <div class="qbCardWidthLimit">
+                        I had started as Development as a Back-End Developer.<br> But then Front-End Development seems cool to me, so I switched to Front-End.
+                    </div>
+                    <div class="qb-skills">
+                        <div class="qb-skill-head">
+                            Front-End
+                        </div>
+                        <div class="qb-skill-cards">
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                        </div>
+                        <div class="qb-skill-head">
+                            Front-End
+                        </div>
+                        <div class="qb-skill-cards">
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                        </div>
+                        <div class="qb-skill-head">
+                            Front-End
+                        </div>
+                        <div class="qb-skill-cards">
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                            <div class="qb-skill-card card qbCardShadow">
+                                <div class="qb-skill-card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="qb-skill-card-text">HTML</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="qb-footer" id="Contact">
+
     </div>
 </body>
 </html>
