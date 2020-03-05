@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Agrawal</title>
+    <script src="js/angular.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -13,10 +14,10 @@
     <script src="js/home.js"></script>
   </head>
 </head>
-<body>
+<body ng-app="qbApp" ng-controller="qbCtrl">
     <div class="qb-header">
         <nav class="navbar navbar-expand-md navbar-dark qb-navbar">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand qb-header-logo" href="#">Zaran</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon qb-font-light"></span>
             </button>
@@ -27,7 +28,7 @@
                             <a class="nav-link qb-font-light" href="#">Home</a>
                         </li>
                         <li class="nav-item iBlock">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#About">About</a>
                         </li>
                         <li class="nav-item iBlock">
                             <a class="nav-link" href="#">Projects</a>
@@ -47,8 +48,54 @@
     <div class="qb-wall">
         <div class="qb-wall-bg img-cover" style="background-image: url('/images/31225.jpg');">
             <div class="qb-wall-cover">
-                <div class="qb-wall-text">
-                    Developer is an organism <br>that turns coffee into code1
+                <div class="qb-wall-content">
+                    <div class="qb-wall-text">
+                        Developer is an organism <br>that turns coffee into code
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="qb-main" id="About">
+        <div class="qb-pic-card-cover" >
+            <div class="qb-pic-card">
+                <div class="qb-card card">
+                    <div class="qb-pic">
+                        <img src="" alt="" class="qb-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qb-info-card-cover">
+            <div class="qb-info-card qb-card-translate qb-card-padding-top">
+                <div class="qb-info-card-head">
+                    Hi There !
+                    <br> I Am Ayush Agrawal.
+                </div>
+                <div class="qb-info-card-text qb-info-card-width-limit">
+                    I'm a Web Developer and a Competitve Coder.
+                    <br> <br> I'm doing my undergraduation at the National Institute of Technology - Raipur, graduating with a B.Tech degree in Computer Science and Engineering, and I spent most of my time coding and learning about new Techs.
+                    <br> <br> People have coding as one of there hobies but for me coding is much more than hobby or passion. 
+                    <br> For me it is the way I live my Life.
+                    <br> <br> Debuging is the way how I solve my problems in reality.
+                    <br>
+                </div>
+            </div>
+            <div class="qb-info-card qb-card-translate ">
+                <div class="qb-info-card-head">
+                    Projects
+                </div>
+                <div class="qb-info-card-text qb-info-card-width-full">
+                    <div class="card qb-project-card">
+                        Endurance
+                    </div>
+                    <div class="card qb-project-card">
+                        Endurance
+                    </div>
+                    <div class="card qb-project-card">
+                        Endurance
+                    </div>
                 </div>
             </div>
         </div>
