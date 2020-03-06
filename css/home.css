@@ -221,14 +221,18 @@
 
 .qb-main .qb-info-card-cover .qb-info-card .qb-projects .qb-project-card {
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
   margin-left: 1.5%;
   margin-right: 1.5%;
+}
+
+.qb-main .qb-info-card-cover .qb-info-card .qb-projects .qb-project-card .qb-project-card-icon {
+  font-size: 50px;
 }
 
 .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-head {
@@ -247,14 +251,19 @@
 
 .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card {
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
   margin-left: 1.5%;
   margin-right: 1.5%;
+}
+
+.qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card .qb-skill-card-icon {
+  font-size: 55px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -327,8 +336,9 @@
   }
   .qb-main .qb-info-card-cover .qb-info-card .qb-projects .qb-project-card {
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 5%;
@@ -350,6 +360,7 @@
   }
   .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card {
     display: inline-block;
+    width: 70%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10%;
