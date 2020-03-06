@@ -1,5 +1,12 @@
 var myApp = angular.module('qbApp', []);
 myApp.controller('qbCtrl', function($scope,$interval) {
+    var qbCollapseDiv=document.querySelector(".navbar-collapse");
+    angular.element(document).bind("click",function(){
+        if(angular.element(qbCollapseDiv).hasClass("show"))
+        {
+            angular.element(qbCollapseDiv).removeClass("show");
+        }
+    })
     var qbHeaderEle=angular.element(document.querySelector(".qb-header"));
     if(window.scrollY>=150)
     {
