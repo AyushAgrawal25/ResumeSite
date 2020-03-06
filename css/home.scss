@@ -509,15 +509,19 @@
     .qb-footer{
         background-color: #08b76d;
         padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-bottom: 25px;
         
         .qb-footer-head{
             padding: 10px;
             font-size: 30px;
             color: #fff;
             text-align: center;
+        }    
+        .qb-footer-padding{
+            padding-left: 10%;
+            padding-right: 10%;
         }
+    
 
         .qb-footer-text{
             text-align: center;
@@ -527,7 +531,7 @@
         }
 
         .qb-footer-cards{
-            padding: 5%;
+            padding-top:0%;
             text-align: center;
     
             .qb-footer-card{
@@ -547,7 +551,7 @@
         }
 
         .qb-site{
-            padding-top: 30px;
+            padding-top: 0px;
             padding-bottom: 30px;
     
             .qb-site-logo{
