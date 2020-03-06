@@ -11,4 +11,7 @@ myApp.controller('qbCtrl', function($scope,$interval) {
             qbHeaderEle.removeClass("qbColorGreen");
         }
     });
+
+    var qbSlideInUpDivs=document.querySelectorAll(".qbSlideInUp");
+    console.log(qbSlideInUpDivs);
 });

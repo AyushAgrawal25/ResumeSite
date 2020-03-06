@@ -11,12 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:400,500&display=swap" rel="stylesheet">
+    <script src="js/wow.min.js"></script>
     <script src="js/home.js"></script>
   </head>
 </head>
 <body ng-app="qbApp" ng-controller="qbCtrl">
+    <script>
+        new WOW().init();
+    </script>
     <div class="qb-header qbCardShadow">
         <nav class="navbar navbar-expand-md navbar-dark qb-navbar">
             <a class="navbar-brand qb-header-logo" href="#">Zaran</a>
@@ -51,7 +56,7 @@
         <div class="qb-wall-bg qbImgCover" style="background-image: url('images/31225.jpg');">
             <div class="qb-wall-cover">
                 <div class="qb-wall-content">
-                    <div class="qb-wall-text">
+                    <div class="qb-wall-text animated">
                         Developer is an organism <br>that turns coffee into code
                     </div>
                 </div>
@@ -61,7 +66,7 @@
 
     <div class="qb-main" id="About">
         <div class="qb-pic-card-cover" >
-            <div class="qb-pic-card qbCardShadow">
+            <div class="qb-pic-card qbCardShadow qbSlideInUp">
                 <div class="qb-card card">
                     <div class="qb-pic">
                         <img src="" alt="" class="qb-img">
@@ -71,7 +76,7 @@
         </div>
         <div class="qb-info-card-cover">
             <div class="qb-info-card qb-card-translate qb-card-padding-top">
-                <div class="qb-info-card-head">
+                <div class="qb-info-card-head wow fadeInUp">
                     Hi There !
                     <br> I Am Ayush Agrawal.
                 </div>
@@ -95,25 +100,25 @@
                         <br>
                     </div>
                     <div class="qb-projects">
-                        <div class="card qb-project-card qbCardShadow">
+                        <div class="card qb-project-card wow fadeInUp qbCardShadow">
                             <div class="qb-project-card-icon">
                                 <i class="fas fa-dumbbell"></i>
                             </div>
                             <a href="https://ayushagrawal25.github.io/Endurance" class="qbCardTitle" style="text-decoration: none;">Endurance</a>
                         </div>
-                        <div class="card qb-project-card qbCardShadow">
+                        <div class="card qb-project-card wow fadeInUp qbCardShadow">
                             <div class="qb-project-card-icon">
                                 TED<sup style="color:red">x</sup>
                             </div>
                             <a href="https://www.tedxnitraipur.com" class="qbCardTitle" style="text-decoration: none;">TED<sup>x</sup> NIT Raipur</a>
                         </div>
-                        <div class="card qb-project-card qbCardShadow">
+                        <div class="card qb-project-card  wow fadeInUp qbCardShadow">
                             <div class="qb-project-card-icon">
                                 <i class="fas fa-calculator"></i>
                             </div>
                             <a href="https://ayushagrawal25.github.io/calculator" class="qbCardTitle" style="text-decoration: none;">Calculator</a>
                         </div>
-                        <div class="card qb-project-card qbCardShadow">
+                        <div class="card qb-project-card wow fadeInUp qbCardShadow">
                             <div class="qb-project-card-icon">
                                 <i class="fas fa-crop"></i>
                             </div>
@@ -135,37 +140,37 @@
                             Front-End
                         </div>
                         <div class="qb-skill-cards">
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="far fa-file-code"></i>
                                 </div>
                                 <div class="qb-skill-card-text qbCardTitle">HTML</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-css3-alt"></i>
                                 </div>
                                 <div class="qb-skill-card-text qbCardTitle">CSS</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-js-square"></i>
                                 </div>
                                 <div class="qb-skill-card-text qbCardTitle">JS</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-react"></i>
                                 </div>
                                 <div class="qb-skill-card-text qbCardTitle">React</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-angular"></i>
                                 </div>
                                 <div class="qb-skill-card-text  qbCardTitle">Angular</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-angular"></i><span style="font-size: 25px;">js</span>
                                 </div>
@@ -176,13 +181,13 @@
                             Back-End
                         </div>
                         <div class="qb-skill-cards">
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-node"></i>
                                 </div>
                                 <div class="qb-skill-card-text qbCardTitle">NodeJs</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-php"></i>
                                 </div>
@@ -193,13 +198,13 @@
                             Programming Language
                         </div>
                         <div class="qb-skill-cards">
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     C++
                                 </div>
                                 <div class="qb-skill-card-text qbCardTitle">C++/C</div>
                             </div>
-                            <div class="qb-skill-card card qbCardShadow">
+                            <div class="qb-skill-card card wow fadeInUp qbCardShadow">
                                 <div class="qb-skill-card-icon">
                                     <i class="fab fa-python"></i>
                                 </div>
