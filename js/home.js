@@ -11,16 +11,12 @@ myApp.controller('qbCtrl', function($scope,$interval) {
     }
     var qbWowDivs=document.querySelectorAll(".wow2");
     
-    angular.element(window).bind("scroll",function(){
-        if(window.scrollY>=150)
-        {
-            qbHeaderEle.addClass("qbColorGreen");
-        }
-        else
-        {
-            qbHeaderEle.removeClass("qbColorGreen");
-        }
-
+    var qbSetAnimateFun=function() {
+        angular.forEach(qbWowDivs,function (qbWowDiv,value) {
+            angular.element(qbWowDiv).attr("onDisplay","false");
+        })
+    }
+    var qbAnimateFun=function(){
         angular.forEach(qbWowDivs, function(qbWowDiv,key){
             if((qbWowDiv.getBoundingClientRect().top>=50)&&(qbWowDiv.getBoundingClientRect().top<=(window.innerHeight-50)))
             {
@@ -44,6 +40,20 @@ myApp.controller('qbCtrl', function($scope,$interval) {
                 angular.element(qbWowDiv).removeClass("fadeInUp");
             }
         });
+    }
+    qbSetAnimateFun();
+    qbAnimateFun();
+    angular.element(window).bind("scroll",function(){
+        if(window.scrollY>=150)
+        {
+            qbHeaderEle.addClass("qbColorGreen");
+        }
+        else
+        {
+            qbHeaderEle.removeClass("qbColorGreen");
+        }
+        qbAnimateFun();
+        
     });
 
     var qbWallBgCovers=document.querySelectorAll(".qb-wall-bg-cover");
