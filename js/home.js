@@ -46,5 +46,12 @@ myApp.controller('qbCtrl', function($scope,$interval) {
         });
     });
 
+    var qbWallBgCovers=document.querySelectorAll(".qb-wall-bg-cover");
+    var num=0;
+    window.setInterval(function(){
+        angular.element(qbWallBgCovers[(num%3)]).css("opacity","0");
+        num++;
+        angular.element(qbWallBgCovers[(num%3)]).css("opacity","1");
+    },4000);
     
 });
