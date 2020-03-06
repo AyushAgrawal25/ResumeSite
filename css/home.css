@@ -58,7 +58,8 @@ body, html {
 }
 
 .qb-header .qb-header-logo {
-  font-size: 25px;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 .qb-header .qb-navbar {
@@ -481,6 +482,7 @@ body, html {
 }
 
 .qb-footer .qb-credit {
+  padding: 1%;
   background-color: #fff;
   text-align: center;
   color: #3a3a3a;
@@ -542,7 +544,7 @@ body, html {
     color: #fff;
   }
   .qb-footer .qb-credit {
-    background-color: #3a3a3a;
+    background-color: black;
     text-align: center;
     color: #fff;
   }
