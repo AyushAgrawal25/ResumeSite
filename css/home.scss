@@ -24,6 +24,14 @@
     }
 }
 
+.qb-img{
+    background-color: rgba(0,0,0,0);
+}
+::after{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+}
+
 .qbCardTitle{
     font-size: 20px;
     font-weight: 500;
