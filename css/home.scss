@@ -1,4 +1,7 @@
 /*Universal Use*/
+body,html{
+    height: 100%;
+}
 .qbImgCover{
     background-position: center center;
     background-size: cover;
@@ -74,7 +77,7 @@
 
 .qb-wall{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
     .qb-wall-bg-cover{
         transition-duration: 2s;
@@ -114,7 +117,7 @@
 @media only screen and (max-width: 600px){
     .qb-wall{
         width: 100%;
-        height: 100vh;
+        height: 100%;
         
         .qb-wall-bg-cover{
             .qb-wall-bg{
