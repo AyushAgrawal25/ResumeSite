@@ -482,7 +482,7 @@ body, html {
 }
 
 .qb-footer .qb-credit {
-  padding: 1%;
+  padding: 1.5%;
   background-color: #fff;
   text-align: center;
   color: #3a3a3a;
@@ -544,7 +544,7 @@ body, html {
     color: #fff;
   }
   .qb-footer .qb-credit {
-    background-color: black;
+    background-color: #3a3a3a;
     text-align: center;
     color: #fff;
   }
