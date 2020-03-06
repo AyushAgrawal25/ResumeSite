@@ -7,9 +7,6 @@ body,html{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.qb-font-light{
-    color: rgb(236, 236, 236) !important;
-}
 .qbColorGreen{
     background-color: #06A763 !important;
 }
@@ -325,6 +322,7 @@ body,html{
                 .qb-card{
                     width: 70vw;
                     height: 70vw;
+                    padding: 15px;
                     background-color: #ffffee;
     
                     .qb-pic{

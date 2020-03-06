@@ -9,10 +9,6 @@ body, html {
   background-repeat: no-repeat;
 }
 
-.qb-font-light {
-  color: #ececec !important;
-}
-
 .qbColorGreen {
   background-color: #06A763 !important;
 }
@@ -319,6 +315,7 @@ body, html {
   .qb-main .qb-pic-card-cover .qb-pic-card .qb-card {
     width: 70vw;
     height: 70vw;
+    padding: 15px;
     background-color: #ffffee;
   }
   .qb-main .qb-pic-card-cover .qb-pic-card .qb-card .qb-pic {
