@@ -360,7 +360,7 @@
   }
   .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card {
     display: inline-block;
-    width: 70%;
+    width: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10%;
