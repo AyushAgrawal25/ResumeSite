@@ -256,6 +256,7 @@ body, html {
 .qb-main .qb-info-card-cover .qb-info-card .qb-projects .qb-project-card .qb-project-card-icon {
   font-size: 50px;
   font-weight: 500;
+  height: 75px;
 }
 
 .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-head {
@@ -288,6 +289,12 @@ body, html {
 
 .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card .qb-skill-card-icon {
   font-size: 55px;
+  height: 75px;
+}
+
+.qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card .qb-skill-card-icon img {
+  -webkit-filter: invert(22.5%);
+          filter: invert(22.5%);
 }
 
 .qb-main .qb-info-card-cover .qb-info-card .qb-skills .qb-skill-cards .qb-skill-card .qb-skill-card-text {

@@ -256,6 +256,7 @@ body,html{
                     .qb-project-card-icon{
                         font-size: 50px;
                         font-weight: 500;
+                        height: 75px;
                     }
                 }
             }
@@ -290,6 +291,11 @@ body,html{
 
                         .qb-skill-card-icon{
                             font-size: 55px;
+                            height: 75px;
+
+                            img{
+                                filter: invert(22.5%);
+                            }
                         }
                         .qb-skill-card-text{
                             font-size: 20px;
